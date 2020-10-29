@@ -33,11 +33,10 @@
     cursor: pointer;
 }
 
-#close-shopping-cart p{
+#close-shopping-cart div{
     text-align: center;
     font-size: 1.6rem;
     color: white;
-    
 }
 
 #shopping-cart-text{
