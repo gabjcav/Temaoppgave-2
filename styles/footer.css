@@ -1,0 +1,47 @@
+footer{
+    background-color: #783c9d;
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-wrapper{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 400px;
+    padding: 10px;
+    color: white;
+}
+
+#contact-container{
+    width: 200px;
+    font-size: 2rem;
+}
+
+#our-products-container{
+   
+    color: white;
+    width: 150px;
+}
+
+#our-products-container a{
+    color: white;
+}
+
+#our-products-container li:hover{
+    
+    transform: scale(1.1);
+}
+
+.toptext-footer{
+    font-size: 1.4rem;
+    font-weight: 300 ;
+    margin-bottom: 10px;
+}
+
+
+footer a{
+    font-weight: 300;
+}

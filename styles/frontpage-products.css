@@ -1,0 +1,52 @@
+.products-wrapper{
+    display: grid;    
+    grid-template-rows: repeat(2,1fr);
+    height: 600px;
+    margin-bottom: 170px;
+}
+
+.products-text{
+    font-size: 4rem;
+    margin-right: 50px;
+    color:  #783c9d;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    align-items: center;  
+    gap: 50px;
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid #783c9d;
+    
+}
+
+
+
+.products-games img{
+    height: 420px;
+    width: 350px;
+    
+}
+
+.add-to-cart-btn{
+    padding: 10px;
+    background-color:  #783c9d;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5rem;
+     
+}
+
+
+.add-to-cart-btn:hover{
+    background-color:  #3f1e54;
+    cursor: pointer;
+}
+
+
